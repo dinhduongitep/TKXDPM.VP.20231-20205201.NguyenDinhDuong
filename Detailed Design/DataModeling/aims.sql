@@ -81,7 +81,7 @@ CREATE TABLE DeliveryInfo (
 );
 
 -- Table: OrderInfo
-CREATE TABLE OrderInfo(
+CREATE TABLE Order_Info(
 	id 						BIGINT 			NOT NULL AUTO_INCREMENT,
 	shippingFees			INTEGER			NOT NULL,
     subtotal				INTEGER			NOT NULL,

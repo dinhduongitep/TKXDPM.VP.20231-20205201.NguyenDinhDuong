@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.Icon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: e1f8ff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="103.0" fitWidth="141.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@AIMS%20Logo.png" />
+               </image>
+            </ImageView>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="64.0" prefWidth="35.0" />
+            <Label contentDisplay="CENTER" prefHeight="86.0" prefWidth="524.0" text="Thanh toán bằng VN-Pay" textAlignment="CENTER" textFill="#f33061">
+               <font>
+                  <Font name="UTM Eremitage" size="32.0" />
+               </font>
+            </Label>
+            <Pane prefHeight="103.0" prefWidth="733.0" />
+            <HBox alignment="CENTER_RIGHT" prefHeight="103.0" prefWidth="335.0">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@avtaims/avtaims.png" />
+                     </image>
+                  </ImageView>
+                  <Label contentDisplay="CENTER" prefHeight="40.0" prefWidth="170.0" text="Dinh_duong" textAlignment="CENTER">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: e1f8ff;" BorderPane.alignment="CENTER" />
+   </right>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" style="-fx-background-color: e1f8ff;" BorderPane.alignment="CENTER" />
+   </left>
+   <bottom>
+      <Pane prefHeight="50.0" prefWidth="1366.0" style="-fx-background-color: e1f8ff;" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <VBox alignment="CENTER_LEFT" prefHeight="619.0" prefWidth="1186.0" style="-fx-background-color: fdfdfd;" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="64.0" prefWidth="1166.0">
+               <children>
+                  <Pane prefHeight="64.0" prefWidth="61.0" />
+                  <Icon content="BACKSPACE" prefHeight="100.0" prefWidth="36.0" />
+                  <Label prefHeight="22.0" prefWidth="687.0" text="Đổi phương thức khác" underline="true">
+                     <font>
+                        <Font name="SVN-Linux Libertine" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <Separator maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="18.0" prefWidth="1046.0">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Separator>
+            <HBox prefHeight="471.0" prefWidth="1166.0" style="-fx-background-color: fdfdfd; -fx-background-radius: 20;">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="365.0" prefWidth="300.0" style="-fx-background-color: e0e0e0; -fx-background-radius: 40;">
+                     <HBox.margin>
+                        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+                     </HBox.margin>
+                     <padding>
+                        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+                     </padding>
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="79.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@aimsQRPAY.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="29.0" layoutY="236.0" opacity="0.8" prefHeight="31.0" prefWidth="110.0" text="Tổng tiền:">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="141.0" layoutY="238.0" prefHeight="31.0" prefWidth="143.0" text="111.400 VNĐ ">
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <VBox prefHeight="471.0" prefWidth="754.0">
+                     <children>
+                        <Label text="Quét mã QR để thanh toán">
+                           <font>
+                              <Font name="SVN-Linux Libertine bold" size="24.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="100.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="22.0" prefWidth="480.0" text="1. Mở ứng dụng ngân hàng hỗ trợ VNPAY-QR ">
+                           <font>
+                              <Font name="SVN-Linux Libertine" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="100.0" right="20.0" top="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="22.0" prefWidth="480.0" text="2. Trên ứng dụng chọn tính năng “Quét mã QR”">
+                           <font>
+                              <Font name="SVN-Linux Libertine" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="100.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label prefHeight="22.0" prefWidth="480.0" text="3. Quét mã QR ở trang này và thanh toán">
+                           <font>
+                              <Font name="SVN-Linux Libertine" size="18.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="10.0" left="100.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="111.0" prefWidth="350.0" style="-fx-background-color: fff5ec; -fx-background-radius: 40;">
+                           <VBox.margin>
+                              <Insets bottom="20.0" left="200.0" right="20.0" top="100.0" />
+                           </VBox.margin>
+                           <children>
+                              <Label alignment="CENTER" layoutX="-1.0" layoutY="20.0" opacity="0.8" prefHeight="31.0" prefWidth="352.0" text="Giao dịch kết thúc sau" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="21.0" />
+                                 </font>
+                              </Label>
+                              <HBox alignment="CENTER" layoutX="68.0" layoutY="57.0" prefHeight="40.0" prefWidth="200.0">
+                                 <children>
+                                    <Pane prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: fd820a; -fx-background-radius: 10;">
+                                       <HBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <Label alignment="CENTER" layoutX="17.0" layoutY="5.0" text="04" textAlignment="CENTER">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <Label text=":" />
+                                    <Pane prefHeight="40.0" prefWidth="50.0" style="-fx-background-color: fd820a; -fx-background-radius: 10;">
+                                       <HBox.margin>
+                                          <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <Label alignment="CENTER" layoutX="17.0" layoutY="4.0" text="25" textAlignment="CENTER">
+                                             <font>
+                                                <Font size="15.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </Pane>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
