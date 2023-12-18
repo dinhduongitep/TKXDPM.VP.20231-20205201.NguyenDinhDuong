@@ -2,16 +2,17 @@ package com.hust.itep.aims.controller;
 
 import org.junit.jupiter.api.Test;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HomeControllerTest {
+public class HomeControllerTest {
 
     @Test
-    void getAllMedia() {
+    void getAllMedia() throws SQLException {
         HomeController homeController = new HomeController();
-        assertNotNull(homeController.getAllMedia());
+        assertNotNull(homeController.getAllMedia().size());
     }
 }

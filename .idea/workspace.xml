@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8bf75fd-8369-4acb-b188-e6a037e14007" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/AIMS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/controller/ViewCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/cart/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/cart/CartMedia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/invoice/Invoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/media/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/media/CdAndLp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/media/Dvd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/media/Media.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/order/OrderMedia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/payment/PaymentTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/entity/payment/VnPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itss/service/MediaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code/AIMS/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Requirement analysis/SequenceDiagram/SequenceDiagram_Thanh toán.png.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIMS_20205201.asta" beforeDir="false" afterPath="$PROJECT_DIR$/AIMS_20205201.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itep/aims/service/MediaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/AIMS/src/main/java/com/hust/itep/aims/service/MediaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/AIMS/src/test/java/com/hust/itep/aims/entity/media/MediaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/AIMS/src/test/java/com/hust/itep/aims/entity/media/MediaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/AIMS/src/test/java/com/hust/itep/aims/service/MediaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code/AIMS/src/test/java/com/hust/itep/aims/service/MediaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Detailed Design/DataModeling/aims.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Detailed Design/DataModeling/aims.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +29,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Admin/Documents/_Study^^/ITSS/TKXDPM.VP.20231-20205201.NguyenDinhDuong",
+    "last_opened_file_path": "C:/Users/Admin/Documents/_Study^^/ITSS/TKXDPM.VP.20231-20205201.NguyenDinhDuong/Code/AIMS",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,6 +42,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700403191728</updated>
       <workItem from="1700403193166" duration="11000" />
+      <workItem from="1704541180342" duration="142000" />
     </task>
     <servers />
   </component>

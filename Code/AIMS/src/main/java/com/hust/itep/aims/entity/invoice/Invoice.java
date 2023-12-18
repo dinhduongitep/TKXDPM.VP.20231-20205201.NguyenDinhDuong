@@ -2,15 +2,13 @@ package com.hust.itep.aims.entity.invoice;
 
 import com.hust.itep.aims.entity.order.Order;
 
-import java.math.BigInteger;
-
 public class Invoice {
 
-    private BigInteger id;
+    private int id;
     private int totalAmount;
     private Order order;
 
-    public Invoice(BigInteger id, int totalAmount, Order order) {
+    public Invoice(int id, int totalAmount, Order order) {
         this.id = id;
         this.totalAmount = totalAmount;
         this.order = order;
@@ -21,11 +19,11 @@ public class Invoice {
     public Invoice(Order order){
         this.order = order;
     }
-    public BigInteger getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(BigInteger id) {
+    public void setId(int id) {
         this.id = id;
     }
 
