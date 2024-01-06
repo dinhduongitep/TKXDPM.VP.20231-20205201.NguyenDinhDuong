@@ -97,7 +97,7 @@ CREATE TABLE Order_Media(
     quantity			INTEGER			NOT NULL,
     price				INTEGER			NOT NULL,
     isRushOrder			BOOLEAN			NOT NULL,
-	FOREIGN KEY (orderID) REFERENCES OrderInfo (id),
+	FOREIGN KEY (orderID) REFERENCES Order_Info (id),
     FOREIGN KEY (mediaID) REFERENCES Media (id)
 );
 

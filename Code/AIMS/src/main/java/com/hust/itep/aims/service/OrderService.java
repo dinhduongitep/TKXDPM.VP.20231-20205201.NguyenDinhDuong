@@ -11,6 +11,7 @@ public class OrderService {
 
     public int getAmount(){
         double amount = 0;
+        if (lstOrderMedia == null) return 0;
         for (Object object : lstOrderMedia) {
             OrderMedia om = (OrderMedia) object;
             amount += om.getPrice();

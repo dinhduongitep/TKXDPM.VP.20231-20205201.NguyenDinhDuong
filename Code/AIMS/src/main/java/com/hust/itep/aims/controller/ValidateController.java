@@ -7,6 +7,8 @@ public class ValidateController {
    * @param phoneNumber phone number
    * @return boolean
    */
+
+  // logical cohesion
   public boolean validatePhoneNumber(String phoneNumber) {
     // verify if phone has 10 digits and start with 0
     if (phoneNumber.length() != 10 || phoneNumber.charAt(0) != '0') {

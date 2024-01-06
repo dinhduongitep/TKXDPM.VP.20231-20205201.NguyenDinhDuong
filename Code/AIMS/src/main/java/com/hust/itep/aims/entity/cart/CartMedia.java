@@ -8,16 +8,18 @@ public class CartMedia {
     private int quantity;
     private int price;
 
-    public CartMedia(Media media, int quantity, int price) {
+    public CartMedia(){
+
+    }
+
+    public CartMedia(Media media, Cart cart, int quantity, int price) {
         this.media = media;
         this.quantity = quantity;
         this.price = price;
     }
 
-    public CartMedia(){};
-
     public Media getMedia() {
-        return media;
+        return this.media;
     }
 
     public void setMedia(Media media) {
@@ -25,7 +27,7 @@ public class CartMedia {
     }
 
     public int getQuantity() {
-        return quantity;
+        return this.quantity;
     }
 
     public void setQuantity(int quantity) {
@@ -33,10 +35,19 @@ public class CartMedia {
     }
 
     public int getPrice() {
-        return price;
+        return this.price;
     }
 
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "{"
+                + " media='" + media + "'"
+                + ", quantity='" + quantity + "'"
+                + "}";
+    }
+
 }
